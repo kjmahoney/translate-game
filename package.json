@@ -14,6 +14,12 @@
     "translate-utils": "kjmahoney/translate-utils"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "node-loader": "^0.6.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
   }
 }
