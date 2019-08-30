@@ -1,3 +1,4 @@
+require('@babel/polyfill');
 const path = require("path");
 
 module.exports = {
@@ -9,7 +10,15 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.node$/, use: 'node-loader' }
+      { test: /\.node$/, use: 'node-loader' },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+            loader: 'babel-loader',
+        }
+    }
     ]
-  }
+  },
+  node: { fs: 'empty' },
 };
