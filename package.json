@@ -12,7 +12,8 @@
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
-    "translate-utils": "kjmahoney/translate-utils"
+    "translate-utils": "kjmahoney/translate-utils",
+    "webpack-dotenv-plugin": "^2.1.0"
   },
   "scripts": {
     "dev": "nodemon --exec babel-node index.js",
