@@ -5,17 +5,10 @@ const path = require('path');
 const router = express.Router();
 const port = 9000;
 
-const translate = require('translate-utils');
-
 app.use('/dist', express.static(path.join(__dirname, 'dist')))
 
-// router.get('/api', async (req, res) => {
-//     const 
-//     res.json({a : 1});
-// })
-
 router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname + '/index.html'))
+    res.sendFile(path.join(__dirname + '/views/index.html'))
 })
 
 app.use('/', router)
