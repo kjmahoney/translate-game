@@ -1,8 +1,10 @@
-require('babel-polyfill');
-import {translate, toneIsCorrect} from 'translate-utils';
+import { init } from 'kontra';
 
-const print = async () => {
-    console.log('im working');
-}
+const { canvas, context } = init();
 
-print()
+
+
+
+
+
+

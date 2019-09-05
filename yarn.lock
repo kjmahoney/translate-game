@@ -3230,6 +3230,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
+kontra@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/kontra/-/kontra-6.4.1.tgz#d0baced7a757c5f116777c9f01827ae3d58d0207"
+  integrity sha512-ZhhsHqqbWpoSfTSjPy5pKg9pZYWw3S0FFQMdeByNQWJas49elEcNZ31osPYG2n2yRp0aezXaSfgJtExzoMa0lw==
+
 latest-version@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/latest-version/-/latest-version-3.1.0.tgz#a205383fea322b33b5ae3b18abee0dc2f356ee15"
