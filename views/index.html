@@ -4,10 +4,27 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+      }
+      .canvas {
+        background-color: green;
+      } 
+    </style>
   </head>
   <body>
-    <canvas width="300" height="300"></canvas>
+    <div class="container">
+      <canvas class="canvas" width="800" height="400"></canvas>
+      <button id="game-button"></button>
+    </div>
   </body>
   <script src="../dist/bundle.js"></script>
 </html>
