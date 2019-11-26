@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.canvas {
+  background-color: green;
+}
+
