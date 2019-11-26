@@ -1,9 +1,10 @@
 import { init, Sprite, GameLoop, initKeys, keyPressed } from "kontra";
 import { reduce } from "rxjs/operator/reduce";
 import { settings } from "./settings";
+import './scss/main.scss';
 
 const { canvas, context } = init();
-console.log(context)
+
 initKeys();
 
 const person = Sprite({
@@ -12,7 +13,6 @@ const person = Sprite({
   color: reduce,
   width: 20,
   height: 40
-  // dx: 2
 });
 
 const road = Sprite({
