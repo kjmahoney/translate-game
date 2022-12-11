@@ -10,7 +10,7 @@
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
     "dotenv": "^8.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "kontra": "^6.4.1",
     "node-sass": "^4.13.0",
     "nodemon": "^1.19.1",
